@@ -24,29 +24,29 @@ const TradingPlans = () => {
 
     const packageDatas = [
         {
-            name: 'Starter Plan',
+            name: 'Rookie Plan',
             duration: 42,
-            price: "24,000",
-            minimumDeposit: "7,000",
-            maximunDeposit: "24,000",
+            price: "10000",
+            minimumDeposit: "1000",
+            maximunDeposit: "10000",
             minimumReturn: "200",
             maximumReturn: "350",
             // bonus: 0,
             selected: true,
         },
         {
-            name: 'Silver Plan',
+            name: 'Pro Plan',
             duration: 35,
-            price: "49,000",
-            minimumDeposit: "25,000",
-            maximunDeposit: "49,000",
+            price: "90000",
+            minimumDeposit: "10000",
+            maximunDeposit: "90000",
             minimumReturn: "350",
             maximumReturn: "600",
             // bonus: 0,
             selected: true,
         },
         {
-            name: 'Gold Plan',
+            name: 'Master Plan',
             duration: 28,
             price: "99,000",
             minimumDeposit: "50,000",
@@ -56,17 +56,18 @@ const TradingPlans = () => {
             // bonus: 0,
             selected: true,
         },
-        {
-            name: 'Platinum Plan',
-            duration: 28,
-            price: "1,000,000",
-            minimumDeposit: "150,000",
-            maximunDeposit: "1,000,000",
-            minimumReturn: "600",
-            maximumReturn: "1,100",
-            // bonus: 0,
-            selected: true,
-        },
+        
+        // {
+        //     name: 'Platinum Plan',
+        //     duration: 28,
+        //     price: "1,000,000",
+        //     minimumDeposit: "150,000",
+        //     maximunDeposit: "1,000,000",
+        //     minimumReturn: "600",
+        //     maximumReturn: "1,100",
+        //     bonus: 0,
+        //     selected: true,
+        // },
     ]
 
     // const amountBox = [
